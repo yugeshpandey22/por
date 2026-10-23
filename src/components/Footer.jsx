@@ -27,6 +27,10 @@ export default function Footer() {
               <span className="live-status-dot"></span>
               <span>Available for Hire &amp; Client Projects</span>
             </div>
+            <div className="footer-company-pill">
+              <i className="fas fa-briefcase"></i>
+              <span>Full-Stack &amp; SEO @ <strong>Mineib Creative Technology</strong></span>
+            </div>
           </div>
 
           {/* Col 2: Navigation Links */}
@@ -107,6 +111,10 @@ export default function Footer() {
             <span>&copy; {new Date().getFullYear()} <strong>{personalInfo.name}</strong>. Built with React &amp; Vite.</span>
             <span className="footer-dot-sep">•</span>
             <span>Crafted with pride &amp; passion from Bihar, India 🇮🇳</span>
+            <span className="footer-dot-sep">•</span>
+            <span className="footer-work-badge">
+              <i className="fas fa-briefcase"></i> Working at <strong className="highlight-company">Mineib Creative Technology</strong>
+            </span>
           </div>
 
           <button onClick={scrollToTop} className="btn-back-to-top" title="Back to top">
